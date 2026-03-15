@@ -1,4 +1,3 @@
-import telebot
 from telebot import types
 import google.generativeai as genai
 import os
@@ -91,4 +90,3 @@ def solve_question(message):
 # --- START BOT ---
 print("Bot is running...")
 bot.polling()
-
